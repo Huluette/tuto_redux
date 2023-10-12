@@ -8,3 +8,13 @@ export const getPosts = () => {
         });
     };
 };
+
+export const ADD_POST = 'ADD_POST';
+
+export const addPost = () => {
+    return (dispatch) => {
+        return axios.get(' http://localhost:3000/posts').then((res) => {
+            dispatch ({type: ADD_POST, payload: res.data});
+        });
+    };
+};
