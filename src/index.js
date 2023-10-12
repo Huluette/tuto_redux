@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
@@ -9,9 +8,10 @@ import { getPosts } from './actions/post.action';
 import {getUser} from './actions/user.action';
 import { createRoot } from 'react-dom/client';
 
+
 const store = configureStore({
   reducer: rootReducer,
-  devTools: true
+  devTools: true,
 })
 
 store.dispatch(getPosts());
@@ -27,4 +27,3 @@ appRoot.render(
     </Provider>
 
 );
-
