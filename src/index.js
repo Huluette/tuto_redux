@@ -15,7 +15,7 @@ const store = configureStore({
 })
 
 store.dispatch(getPosts());
-store.dispatch((getUser));
+store.dispatch(getUser());
 
 const root = document.getElementById('root');
 const appRoot = createRoot(root);

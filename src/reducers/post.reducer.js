@@ -1,3 +1,5 @@
+import { GET_POSTS, ADD_POST } from "../actions/post.action";
+
 const initialState = {};
 
 export default function postReducer(state = initialState, action) {

@@ -1,3 +1,5 @@
+import { GET_USER } from "../actions/user.action";
+
 const initialState = {};
 
 export default function userReducer(state = initialState, action) {
