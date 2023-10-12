@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "La beauté de la nature",
+      "author": "Jean Dupont",
+      "content": "La nature est une source inépuisable d'inspiration et de beauté. Chaque saison apporte son lot de merveilles...",
+      "likes": 53
+    },
+    {
+      "id": 2,
+      "title": "La cuisine française à travers les âges",
+      "author": "Marie Dubois",
+      "content": "La cuisine française est reconnue dans le monde entier pour sa finesse et ses saveurs. De la baguette au croissant...",
+      "likes": 45
+    },
+    {
+      "id": 3,
+      "title": "Voyager pour apprendre",
+      "author": "Paul Martin",
+      "content": "Voyager permet non seulement de découvrir de nouveaux horizons, mais aussi d'apprendre et de s'enrichir personnellement...",
+      "likes": 76
+    },
+    {
+      "id": 4,
+      "title": "L'importance de la lecture",
+      "author": "Isabelle Lefèvre",
+      "content": "La lecture est une fenêtre ouverte sur le monde, une source de savoir et d'évasion...",
+      "likes": 89
+    },
+    {
+      "id": 5,
+      "title": "Le cinéma, miroir de la société",
+      "author": "François Petit",
+      "content": "Depuis son invention, le cinéma a toujours reflété la société, ses aspirations, ses peurs et ses espoirs...",
+      "likes": 67
+    },
+    {
+      "id": 6,
+      "title": "Musique et émotions",
+      "author": "Valérie Bernard",
+      "content": "La musique a le pouvoir de nous transporter, de nous émouvoir, et de marquer les moments importants de notre vie...",
+      "likes": 54
+    },
+    {
+      "id": 7,
+      "title": "L'art abstrait et son interprétation",
+      "author": "Pierre Leroux",
+      "content": "L'art abstrait, loin de représenter la réalité, cherche à évoquer des sensations, des émotions...",
+      "likes": 48
+    },
+    {
+      "id": 8,
+      "title": "Histoire du design moderne",
+      "author": "Clémence Gautier",
+      "content": "Le design moderne a émergé au XXe siècle, cherchant à allier fonctionnalité et esthétique...",
+      "likes": 39
+    },
+    {
+      "id": 9,
+      "title": "Les bienfaits de la méditation",
+      "author": "Lucas Durand",
+      "content": "La méditation, pratiquée depuis des millénaires, apporte sérénité et clarté d'esprit...",
+      "likes": 52
+    },
+    {
+      "id": 10,
+      "title": "La mode, reflet de l'évolution culturelle",
+      "author": "Sophie Morel",
+      "content": "La mode, bien plus qu'une question d'apparence, est un véritable reflet de l'évolution de notre société à travers les âges...",
+      "likes": 46
+    }
+  ],
+  "user": [
+    {
+      "pseudo": "ludo",
+      "likes": 122,
+      "age": 36,
+      "id": 1
+    }
+  ]
+}
